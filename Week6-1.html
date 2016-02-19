@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>简易计算器</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <!-- 创建外部容器 -->
+    <div class="container">
+        <!-- 创建计算器容器 -->
+        <div class="cal" id="cal">
+            <h1>CASIO Calculator</h1>
+            <!-- 创建计算器显示屏容器 -->
+            <div class="screen" id="cal-screen">1024</div>
+            <!-- 计算器左边部分键盘 -->
+            <div class="kbd-left">
+                <div class="oprt-1">
+                    <span id="sin">sin</span>
+                    <span id="cos">cos</span>
+                    <span id="clear">清除</span>
+                </div>
+                <div class="number">
+                    <span id="7">7</span>
+                    <span id="8">8</span>
+                    <span id="9">9</span>
+                    <span id="4">4</span>
+                    <span id="5">5</span>
+                    <span id="6">6</span>
+                    <span id="1">1</span>
+                    <span id="2">2</span>
+                    <span id="3">3</span>
+                    <span id="0">0</span>
+                    <span id=".">.</span>
+                    <span id="-">+/-</span>
+                </div>
+            </div>
+            <!-- 计算器右边部分键盘 -->
+            <div class="kbd-right">
+                <div class="oprt-2">
+                    <span id="divide">&divide</span>
+                    <span id="multi">&times</span>
+                    <span id="plus">+</span>
+                    <span id="reduce">-</span>
+                    <span id="result">=</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="calculator.js"></script>
+</body>
+
+</html>
